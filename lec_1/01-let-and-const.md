@@ -14,10 +14,10 @@ var PI = 3.14
 - You should always give an initial value to a `const` variable
 
 ## let
-- `let` is used for values that you intend to change (in loops and reasigns)
+- `let` is used for values that you intend to change (in loops and reassigns)
 
 ## var vs let
-- The main difference betweeen var and let is that let is scoped to the `block` while var is scoped to the function 
+- The main difference between var and let is that let is scoped to the `block` while var is scoped to the function 
 - The other difference is that let (and const) are not hoisted
 
 ### Example 1

@@ -8,13 +8,13 @@
       skills: ["PhotoShop", "HTML", "CSS", "JS"],
     };
     ```
-  - Create a method `getAge` on the object that uses the birthYear to get the age of the developer
-  - Divide the `skills` array into 2 different arrays on the object: `designSkills` ( Containing Photoshop) and `devSkills` containing the rest
+  - Create a method `getAge` on the object that uses the `birthYear` to get the age of the developer
+  - Divide the `skills` array into 2 different arrays on the object: `designSkills` ( Containing PhotoShop) and `devSkills` containing the rest
   -  using the following array `newSkills` merge the its values to the object property `devSkills`
   ```js
      const newSkills = ["ES6", "ES7", "ES😎"];
   ```
-- Welcome to `ES Snacks` a restaurant that contains the best nerdy food aroud. 
+- Welcome to `ES Snacks` a restaurant that contains the best nerdy food around. 
     ```js
     const restaurant = {
       name: "ES-Snacks",

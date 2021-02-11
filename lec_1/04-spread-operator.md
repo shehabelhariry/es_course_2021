@@ -12,7 +12,7 @@
     const arr2 = [4,5,6]
     const newArr = [...arr1, ...arr2] 
   ```
-- it can be used in function paramas
+- it can be used in function params
   ```js
     const arr = [1,2,3]
     function sum (a,b,c) {
@@ -42,7 +42,7 @@
           param1: 'param1 obj 1'
       }
       const obj2 = {
-          param1: 'parama1 obj 2'
+          param1: 'param1 obj 2'
       }
 
       const result = {...obj1, ...obj2} // param 1 from obj ?

@@ -8,8 +8,8 @@
       skills: ["PhotoShop", "HTML", "CSS", "JS"],
     };
     ```
-  - Create a method `getAge` on the object that uses the birthYear to get the age of the developer
-  - Divide the `skills` array into 2 different arrays on the object `designSkills` ( Containing Photoshop) and `devSkills` containing the rest
+  - Create a method `getAge` on the object, that uses the birthYear to get the age of the developer
+  - Divide the `skills` array into 2 different arrays on the object:  `designSkills` (Containing Photoshop) and `devSkills` containing the rest
   -  using the following array `newSkills` merge the its values to the object property `devSkills`
   ```js
      const newSkills = ["ES6", "ES7", "ES😎"];
@@ -26,7 +26,7 @@
     };
     ```
   - Destructure the cold drinks array to a variable with the name `coldDrinks`
-  - Write a function that return all the `coldDrinks` that has the letter `u`
+  - Write a function that return all the `coldDrinks` that have the letter `u`
   - Create a method `addOrder` on the `restaurant` object
   - It should take an object as a param which should look something like this:
     ```js
@@ -45,7 +45,7 @@
     have a great day!
     */
     ```
-  - People were creating the order wrong a lot of the time. The manager of the restaurant decide to add some validation on the order.
+  - People were creating the order wrong a lot of the times. The manager of the restaurant decided to add some validation on the order.
   - Using the proxy API starting wih an `empty` object. The user should be able to create his order step by step with the following restrictions
     ```js
         order.meal = "Pizza" // error: meal should be a number

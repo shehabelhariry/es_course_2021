@@ -41,7 +41,7 @@
       return num * num
   }
 
-  //Tada🎉🎉
+  //Tada 🎉🎉
   const es6Square = num => num * num
   
   ```
