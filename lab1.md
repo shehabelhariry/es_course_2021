@@ -40,7 +40,7 @@
     Order Summary
     =============
     Mr/Ms: "Shehab"
-    Order: "coffee", "pizza"
+    Order: "burger", "pepsi"
 
     have a great day!
     */
