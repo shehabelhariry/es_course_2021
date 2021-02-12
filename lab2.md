@@ -24,3 +24,14 @@
         { EG: [{...}] , ... }  
     - Get the oldest person with a nationality of ‘FR’
  
+- Create a `range` iterable object. When we loop on it with for...of and consoling log each item, I should get the numbers form 1 to 10
+  ```js
+    const range = {
+        from: 1,
+        to: 10,
+    }
+
+    for (let item of range) {
+        console.log(item) 
+    }
+  ```

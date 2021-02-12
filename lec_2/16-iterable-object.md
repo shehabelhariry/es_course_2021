@@ -15,3 +15,25 @@
     iterator.next() // {value: undefined, done: true}
 ```
 - iterators are very useful when used with `generators`
+- We can create out own `iterable` object
+ ```js
+    const fiveRandomNumbers = {
+      [Symbol.iterator]() {
+        return {
+          current: 0,
+          next() {
+            if (this.current < 5) {
+              this.current = this.current + 1;
+              return { value: Math.random(), done: false };
+            } else {
+              return { value: undefined, done: true };
+            }
+          },
+        };
+      },
+    };
+
+  for (let item of fiveRandomNumbers) {
+    console.log(item);
+  }
+```
