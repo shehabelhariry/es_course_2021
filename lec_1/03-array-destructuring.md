@@ -102,5 +102,5 @@
         }
     }
 
-    const {name, dateOfBirth: {birthMonth: month, birthDay: day, birthYear: year}} = person;
+    const {name, birthInfo: {birthMonth: month, birthDay: day, birthYear: year}} = person;
   ```
